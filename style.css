@@ -1,10 +1,7 @@
 :root{
     --bs-tertiary-bg-rgb: 67, 0, 255;
      --bs-body-font-family: "Montserrat"; /* Fuente principal */
-  --bs-body-font-size: 1rem;   /* Tamaño base */
-  --bs-body-font-weight: 400;  /* Grosor */
-  --bs-body-line-height: 1.5;  /* Altura de línea */
-  --bs-body-color: #212529;    /* Color de texto */
+ 
     
 }
 
@@ -52,3 +49,9 @@
          width: 82px;
     height: 67px;
     }
+
+    .card-img-top {
+  height: 280px;
+  object-fit: cover;
+  width: 100%;
+}
