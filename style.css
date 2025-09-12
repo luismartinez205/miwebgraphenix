@@ -1,0 +1,54 @@
+:root{
+    --bs-tertiary-bg-rgb: 67, 0, 255;
+     --bs-body-font-family: "Montserrat"; /* Fuente principal */
+  --bs-body-font-size: 1rem;   /* Tamaño base */
+  --bs-body-font-weight: 400;  /* Grosor */
+  --bs-body-line-height: 1.5;  /* Altura de línea */
+  --bs-body-color: #212529;    /* Color de texto */
+    
+}
+
+ .hero {
+      height: 100vh; /* ocupa toda la pantalla */
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                  url("imagenes/pexels-energepic-com-27411-313691.jpg") no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero-content {
+      max-width: 600px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+     .hero button {
+      background: rgb(67, 0, 255);
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #ff3b2e;
+    }
+
+    .logo {
+         width: 82px;
+    height: 67px;
+    }
