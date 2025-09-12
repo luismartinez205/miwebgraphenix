@@ -1,87 +1,105 @@
-:root{
-    --bs-tertiary-bg-rgb: 67, 0, 255;
-     --bs-body-font-family: "Montserrat"; /* Fuente principal */
- --bs-primary-rgb:67, 0, 255 ; /* Color primario */
-    
+:root {
+  --bs-tertiary-bg-rgb: 67, 0, 255;
+  --bs-body-font-family: "Montserrat";
+  /* Fuente principal */
+  --bs-primary-rgb: 67, 0, 255;
+  /* Color primario */
+  --bs-secondary-rgb: 2, 202, 255;
+  /* Color secundario */
+  --bs-emphasis-color-rgb: 2, 202, 255;  
+  --bs-tertiary-bg:  rgb(67, 0, 255);
+  --bs-border-color-translucent: rgb(67, 0, 255);
+  --bs-body-color: rgb(67, 0, 255);
+ --bs-dropdown-link-hover-bg:13, 202, 240;
 }
 
- .hero {
-      height: 100vh; /* ocupa toda la pantalla */
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                  url("imagenes/pexels-energepic-com-27411-313691.jpg") no-repeat center center/cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      text-align: center;
-    }
+.hero {
+  height: 100vh;
+  /* ocupa toda la pantalla */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("imagenes/pexels-energepic-com-27411-313691.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
 
-    .hero-content {
-      max-width: 600px;
-    }
+.hero-content {
+  max-width: 600px;
+}
 
-    .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 20px;
-    }
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
 
-    .hero p {
-      font-size: 1.2rem;
-      margin-bottom: 30px;
-    }
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
 
-     .hero button {
-      background: rgb(67, 0, 255);
-      color: white;
-      border: none;
-      padding: 15px 30px;
-      font-size: 1rem;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
+.hero button {
+  background: rgb(67, 0, 255);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
-    .hero button:hover {
-      background: #ff3b2e;
-    }
+.hero button:hover {
+  background: #ff3b2e;
+}
 
-    .logo {
-         width: 82px;
-    height: 67px;
-    }
+.logo {
+  width: 77px;
+  height: 67px;
+}
 
-    .logo2 {
-         width: 120px;
-    height: 120px;
-    }
+.logo2 {
+  width: 60px;
+  height: 60px;
+  margin-right: 13px;
+}
 
-    .card-img-top {
+.card-img-top {
   height: 280px;
   object-fit: inherit;
   width: 100%;
 }
 
-.card {    
-   
-    --bs-card-border-color: rgba(67,0,255);   
+.card {
+
+  --bs-card-border-color: rgba(67, 0, 255);
 }
 
 .col_img {
-    width: 46%;
-    height: auto;
-    max-width: 400px; /* Ajusta este valor según tus necesidades */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+  width: 46%;
+  height: auto;
+  max-width: 400px;
+  /* Ajusta este valor según tus necesidades */
+  margin: 0 auto;
+  /* Centra la imagen horizontalmente */
 }
 
 .navbar-brand {
-    font-size: 2rem;
-    font-weight: 400;
-    color: var(--bs-light) !important;
-    margin-left: 16px;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--bs-light) !important;
+  margin-left: 16px;
 }
 
 .texto {
-      width: 78%;
-    /* line-height: 1.5rem; */
-    font-size: 1.3rem;
+  width: 78%;
+  /* line-height: 1.5rem; */
+  font-size: 1.3rem;
+}
+
+.paragrah {
+  position: relative;
+  top: -13px;
+  left: 42px;
 }
