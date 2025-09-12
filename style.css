@@ -1,7 +1,7 @@
 :root{
     --bs-tertiary-bg-rgb: 67, 0, 255;
      --bs-body-font-family: "Montserrat"; /* Fuente principal */
- 
+ --bs-primary-rgb:67, 0, 255 ; /* Color primario */
     
 }
 
@@ -50,8 +50,38 @@
     height: 67px;
     }
 
+    .logo2 {
+         width: 120px;
+    height: 120px;
+    }
+
     .card-img-top {
   height: 280px;
-  object-fit: cover;
+  object-fit: inherit;
   width: 100%;
+}
+
+.card {    
+   
+    --bs-card-border-color: rgba(67,0,255);   
+}
+
+.col_img {
+    width: 46%;
+    height: auto;
+    max-width: 400px; /* Ajusta este valor según tus necesidades */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--bs-light) !important;
+    margin-left: 16px;
+}
+
+.texto {
+      width: 78%;
+    /* line-height: 1.5rem; */
+    font-size: 1.3rem;
 }
