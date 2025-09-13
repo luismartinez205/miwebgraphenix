@@ -10,7 +10,7 @@
   --bs-tertiary-bg:  rgb(67, 0, 255);
   --bs-border-color-translucent: rgb(67, 0, 255);
   --bs-body-color: rgb(67, 0, 255);
- --bs-dropdown-link-hover-bg:13, 202, 240;
+ 
 }
 
 .hero {
@@ -95,11 +95,15 @@
 .texto {
   width: 78%;
   /* line-height: 1.5rem; */
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .paragrah {
   position: relative;
   top: -13px;
   left: 42px;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-hover-color: var(--bs-light);
 }
