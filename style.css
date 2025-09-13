@@ -107,3 +107,13 @@
 .dropdown-menu {
   --bs-dropdown-link-hover-color: var(--bs-light);
 }
+
+#menu {
+  transition: top 0.4s ease; 
+}
+
+.sticky {
+      width: 65px;
+    height: 57px;
+    transition: width 0.3s, height 0.3s;
+}
