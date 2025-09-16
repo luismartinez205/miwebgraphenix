@@ -54,7 +54,8 @@
 }
 
 .hero button:hover {
-  background: #ff3b2e;
+  background: rgb(31, 201, 243);
+  color:black
 }
 
 .logo {
@@ -116,4 +117,13 @@
       width: 65px;
     height: 57px;
     transition: width 0.3s, height 0.3s;
+}
+
+.text-secondary {
+    --bs-text-opacity: 1;
+    color: rgb(31, 201, 243) !important;
+}
+
+nav {
+  border-bottom: 1px solid rgba(8, 213, 228, 0.884);
 }
