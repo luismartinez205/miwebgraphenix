@@ -6,11 +6,11 @@
   /* Color primario */
   --bs-secondary-rgb: 2, 202, 255;
   /* Color secundario */
-  --bs-emphasis-color-rgb: 2, 202, 255;  
+  --bs-emphasis-color-rgb: 67, 0, 255;  
   --bs-tertiary-bg:  rgb(67, 0, 255);
   --bs-border-color-translucent: rgb(67, 0, 255);
-  --bs-body-color: rgb(67, 0, 255);
-  --bs-card-border-color: rgba(67, 0, 255);
+  --bs-body-color: 67, 0, 255;
+  --bs-card-border-color: 67, 0, 255;
   --bs-dropdown-link-hover-color: var(--bs-light);
     
  
@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color:var(--bs-light);
   text-align: center;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .logo {
-  width: 77px;
+  width: 454px;
   height: 67px;
 }
 
@@ -77,12 +77,10 @@
 
 
 .col_img {
-  width: 72%;
-  height: auto;
-  max-width: 400px;
-  /* Ajusta este valor según tus necesidades */
-  margin: 0 auto;
-  /* Centra la imagen horizontalmente */
+     width: 77%;
+    height: auto;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .navbar-brand {
@@ -114,7 +112,7 @@
 }
 
 .sticky {
-      width: 65px;
+      width: 307px;
     height: 57px;
     transition: width 0.3s, height 0.3s;
 }
@@ -125,5 +123,5 @@
 }
 
 nav {
-  border-bottom: 1px solid rgba(8, 213, 228, 0.884);
+  border-bottom: 1px solid rgb(68, 0, 255);
 }
