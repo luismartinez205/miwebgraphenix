@@ -11,7 +11,8 @@
   --bs-border-color-translucent: rgb(67, 0, 255);
   --bs-body-color: rgb(67, 0, 255);
   --bs-card-border-color: rgba(67, 0, 255);
-  --bs-dropdown-link-hover-color: var(--bs-light);    
+  --bs-dropdown-link-hover-color: var(--bs-light);
+    
  
 }
 
@@ -104,6 +105,7 @@
 
 .dropdown-menu {
   --bs-dropdown-link-hover-color: var(--bs-light);
+  --bs-dropdown-border-radius: 0px; 
 }
 
 #menu {
