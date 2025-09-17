@@ -6,13 +6,13 @@
   /* Color primario */
   --bs-secondary-rgb: 2, 202, 255;
   /* Color secundario */
-  --bs-emphasis-color-rgb: 67, 0, 255;  
-  --bs-tertiary-bg:  rgb(67, 0, 255);
+  --bs-emphasis-color-rgb: 67, 0, 255;
+  --bs-tertiary-bg: rgb(67, 0, 255);
   --bs-border-color-translucent: rgb(67, 0, 255);
   --bs-body-color: rgb(67, 0, 255);
-  --bs-card-border-color: 67, 0, 255;
-     
- 
+  --bs-card-border-color: 67, 0, 255;  
+  --bs-border-radius: 0px;
+
 }
 
 .hero {
@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color:var(--bs-light);
+  color: var(--bs-light);
   text-align: center;
 }
 
@@ -54,7 +54,7 @@
 
 .hero button:hover {
   background: rgb(31, 201, 243);
-  color:black
+  color: black
 }
 
 .logo {
@@ -76,17 +76,10 @@
 
 
 .col_img {
-     width: 77%;
-    height: auto;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-.navbar-brand {
-  font-size: 2rem;
-  font-weight: 400;
-  color: var(--bs-light) !important;
-  margin-left: 16px;
+  width: 77%;
+  height: auto;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .texto {
@@ -101,26 +94,28 @@
   left: 42px;
 }
 
-.dropdown-menu {
-  --bs-dropdown-link-hover-color: var(--bs-light);
-  --bs-dropdown-border-radius: 0px; 
-}
 
 #menu {
-  transition: top 0.7s ease; 
+  transition: top 0.7s ease;
 }
 
 .sticky {
-      width: 307px;
-    height: 57px;
-    transition: width 0.3s, height 0.3s;
+  width: 307px;
+  height: 57px;
+  transition: width 0.3s, height 0.3s;
 }
 
 .text-secondary {
-    --bs-text-opacity: 1;
-    color: rgb(31, 201, 243) !important;
+  --bs-text-opacity: 1;
+  color: rgb(31, 201, 243) !important;
 }
 
 nav {
   border-bottom: 1px solid rgb(68, 0, 255);
+}
+
+.dropdown-menu {
+    
+    --bs-dropdown-link-hover-color: var(--bs-light);
+   
 }
