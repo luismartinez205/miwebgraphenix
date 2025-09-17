@@ -53,7 +53,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-4" href="#">Contacto</a>
+            <a class="nav-link mx-4" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -171,8 +171,71 @@
         </div>
       </div>
     </div>
-    <!-- Inicio de las resenas -->
-     <!-- Fin de las resenas -->
+    <!-- Inicio del formulario -->
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12 d-flex justify-content-center align-items-center">
+
+          <h1 id="contacto"><b>Formulario de contacto</b></h1>
+
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+
+        <div class="col-md-6">
+
+          <p>Haciendo uso del formulario puede contactarnos para atenderle, estaremos atento a su mensaje y darle
+            respuesta. </p>
+
+          <p><b>Graphenix Studio</b></p>
+
+          <p><b>Agencia de Marketing Digital</b></p>
+
+          <p>Changuinola, Bocas del Toro Rep. de Panamá </p>
+
+          <p>Av. Omar Torrijos </p>
+
+          <p>Cerca al Taller Arauz, entrando por Marquesina</p>
+
+        </div>
+
+        <div class="col-md-6">
+          <form id="contactForm" autocomplete="off">
+            <label>Nombre:</label>
+            <input type="text" id="nombre" required class="form-control p2" autocomplete="off"><br>
+
+            <label>Correo:</label>
+            <input type="email" id="correo" required class="form-control p2" autocomplete="off"><br>
+
+            <label>Mensaje:</label>
+            <textarea class="form-control p2" id="mensaje" required></textarea><br>
+
+            <button type="submit" class="btn btn-primary my-5">Enviar</button>
+          </form>
+
+          <script>
+            document.getElementById("contactForm").addEventListener("submit", function (e) {
+              e.preventDefault(); // evita que recargue la página
+
+              // Obtener datos
+              const nombre = document.getElementById("nombre").value;
+              const correo = document.getElementById("correo").value;
+              const mensaje = document.getElementById("mensaje").value;
+
+              // Construir URL para Gmail
+              const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=graphenixstudio555@gmail.com&su=Nuevo mensaje de ${encodeURIComponent(nombre)}&body=${encodeURIComponent("Correo: " + correo + "\n\nMensaje:\n" + mensaje)}`;
+
+              // Abrir Gmail en nueva pestaña
+              window.open(gmailURL, "_blank");
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+    <!-- Fin del formulario -->
   </main>
   <!-- inicio footer -->
   <footer>
@@ -217,4 +280,5 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <script src="java.js"></script>
+
 </html>
