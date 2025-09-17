@@ -9,10 +9,9 @@
   --bs-emphasis-color-rgb: 67, 0, 255;  
   --bs-tertiary-bg:  rgb(67, 0, 255);
   --bs-border-color-translucent: rgb(67, 0, 255);
-  --bs-body-color: 67, 0, 255;
+  --bs-body-color: rgb(67, 0, 255);
   --bs-card-border-color: 67, 0, 255;
-  --bs-dropdown-link-hover-color: var(--bs-light);
-    
+     
  
 }
 
