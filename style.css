@@ -126,3 +126,11 @@ nav {
   --bs-btn-hover-bg:rgb(68, 0, 255);
   --bs-btn-hover-border-color: #ffffff;
 }
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: rgb(67, 0, 255);
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(67,0,255,.25);
+}
