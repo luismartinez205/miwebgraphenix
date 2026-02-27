@@ -58,8 +58,9 @@
 }
 
 .logo {
-  width: 454px;
-  height: 67px;
+    width: 173px;
+    height: auto;
+    margin-left: 50px;
 }
 
 .logo2 {
@@ -76,10 +77,12 @@
 
 
 .col_img {
-  width: 77%;
-  height: auto;
-  max-width: 400px;
-  margin: 0 auto;
+    width: 233px;
+    height: auto;
+    /* max-width: 400px; */
+    /* margin: 0 auto; */
+    position: relative;
+    top: 0px
 }
 
 .texto {
@@ -133,4 +136,13 @@ nav {
     border-color: rgb(67, 0, 255);
     outline: 0;
     box-shadow: 0 0 0 .25rem rgba(67,0,255,.25);
+}
+
+footer a:hover {
+  color: #ffffff !important;
+  transition: 0.3s ease;
+}
+
+footer {
+  background: linear-gradient(135deg, #0d6efd, #0a58ca);
 }
